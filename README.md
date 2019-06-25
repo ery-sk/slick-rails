@@ -22,7 +22,7 @@ bundle
 
 `slick.js`と`slick.scss`を`vendor/assets/javascripts(stylesheets)`に格納
 ```erb
-/* home/index.html.erb */
+<%# home/index.html.erb %>
 <div class="slider">
   <div><%= image_tag 'image1' %></div>
   <div><%= image_tag 'image2' %></div>
